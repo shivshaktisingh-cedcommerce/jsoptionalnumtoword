@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+       
+       var arr=[
+           ["Q1",340,604,38,335,65,35,336,484,80],
+           ["Q2",680,583,10,684,490,48,595,594,39],
+           ["Q3",535,490,50,389,385,15,366,385,20]
+       ];
+       document.write("<center><table border=1px cellspacing=0>");
+       document.write("<tr><td rowspan=3>Time</td><td colspan=3>Location='kolkata'</td><td colspan=3>Location='delhi'</td><td colspan=3>Location='mumbai'</td></tr>");
+       document.write("<tr><td colspan=3>items</td><td colspan=3>items</td><td colspan=3>items</td></tr>");
+       document.write("<tr><td>Milk</td><td>Egg</td><td>Bread</td>><td>Milk</td><td>Egg</td><td>Bread</td>><td>Milk</td><td>Egg</td><td>Bread</td></tr>");
+        for(let a=0;a<arr.length;a++){
+            document.write("<tr>");
+            for(let b=0;b<arr[a].length;b++){
+              
+                document.write("<td>"+arr[a][b]+"</td>");
+            }
+            document.write("</tr>");
+       }
+        document.write("</table></center>");
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+
+    
+</body>
+</html>
